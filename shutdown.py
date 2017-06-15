@@ -5,7 +5,7 @@ import subprocess, os, sys, re, time
 # and the host machine gracefully. It works on ESXi 6.5.
 
 # Set the IP to check.
-ipToCheck = 192.168.1.1
+ipToCheck = "192.168.1.1"
 ############################################
 
 # Helper variables to check script is not already running.
